@@ -78,7 +78,7 @@ export function NewThread({ subThreadName, setShowModal, edit = false, ogInfo = 
               required={true}
               maxLength={50}
               minLength={3}
-              pattern="\w"
+              pattern="\w+"
             />
           </label>
         )}

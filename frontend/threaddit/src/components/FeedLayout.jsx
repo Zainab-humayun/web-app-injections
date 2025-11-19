@@ -7,5 +7,6 @@ export default function FeedLayout() {
       <ThreadsSidebar />
       <Outlet />
     </div>
+    
   );
 }

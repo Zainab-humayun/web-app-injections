@@ -138,6 +138,7 @@ export function AppLogo({ forBanner = false, children }) {
         <span className="hidden md:block absolute w-4 h-4 bg-theme-cultured rounded-full bottom-[5.9rem] z-10 right-[8rem]"></span>
         <h1 className="font-mono text-6xl font-bold tracking-tight">Threaddit</h1>
         <p className="text-lg font-semibold">The Internet Home Place, where many communities reside</p>
+        
         {children}
       </div>
     );
